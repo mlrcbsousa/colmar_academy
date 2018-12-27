@@ -11,10 +11,14 @@ header {
 .header-left img {
   height: 3rem;
 }
+.header-left img.mobile-icon {
+  display: none;
+}
 .header-left span {
   font-size: 1.5rem;
 }
 .header-left .colmar {
+  color: firebrick;
   font-weight: bold;
 }
 .header-left .academy {
@@ -22,4 +26,22 @@ header {
 }
 .header-right nav span {
   margin-left: 1rem;
+}
+
+@media only screen and (max-width: 470px) {
+  .header-left span,
+  .header-right nav {
+    display: none;
+  }
+  .header-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header-left img {
+    padding: 0 1.5rem;
+    height: 2.5rem;
+  }
+  .header-left img.mobile-icon {
+    display: block;
+  }
 }

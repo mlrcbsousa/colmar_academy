@@ -19,6 +19,10 @@ h2,
 h3 {
   font-weight: bold;
 }
+h1,
+h2 {
+  color: firebrick;
+}
 h1 {
   font-size: 2.5rem;
   line-height: 1.2;
@@ -32,4 +36,10 @@ h3 {
 h3,
 p {
   line-height: 1.4;
+}
+
+@media only screen and (max-width: 470px) {
+  .container {
+    padding: 0;
+  }
 }

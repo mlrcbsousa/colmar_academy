@@ -10,3 +10,15 @@ footer {
 .footer-right span {
   margin-left: .5rem;
 }
+
+@media only screen and (max-width: 470px) {
+  footer {
+    height: auto;
+    border-top: none;
+    font-size: .9rem;
+    padding: 1rem;
+  }
+  .footer-right {
+    display: none;
+  }
+}

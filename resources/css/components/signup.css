@@ -12,4 +12,19 @@
   color: white;
   background-color: #45494A;
   border-radius: 2px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.15);
+}
+
+@media only screen and (max-width: 470px) {
+  .signup {
+    width: auto;
+    margin-left: 0;
+    padding: 2rem 1rem;
+  }
+  .signup .btn {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem 0;
+    background-color: #B0B0B0;
+  }
 }
