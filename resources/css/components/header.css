@@ -1,0 +1,25 @@
+/*header*/
+header,
+.header-left {
+  display: flex;
+  align-items: center;
+}
+header {
+  justify-content: space-between;
+  height: 4rem;
+}
+.header-left img {
+  height: 3rem;
+}
+.header-left span {
+  font-size: 1.5rem;
+}
+.header-left .colmar {
+  font-weight: bold;
+}
+.header-left .academy {
+  color: #C7C7C7; /*light gray*/
+}
+.header-right nav span {
+  margin-left: 1rem;
+}

@@ -1,0 +1,61 @@
+/*section*/
+/*banner*/
+.banner,
+.courses {
+  background-color: #E0E0E0; /*light gray*/
+}
+.thesis-main,
+.cards,
+.info,
+.banner {
+  display: flex;
+}
+.banner {
+  align-items: center;
+}
+.info-main,
+.thesis-content,
+.banner img {
+  width: 60%;
+}
+.info-main,
+.banner img {
+  margin: 2rem 0;
+}
+/*info*/
+.info {
+  padding-left: 1.5rem;
+}
+.thesis-content video,
+.card img,
+.info-main img {
+  width: 100%;
+}
+.info-main h2 {
+  margin: 2rem 0 1.5rem 0;
+}
+.info-main span,
+.info-main p {
+  margin-bottom: 2rem;
+}
+.info-main span {
+  font-size: 0.75rem;
+}
+/*courses*/
+.courses {
+  padding: 2rem 0;
+}
+.thesis h1,
+.courses h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.thesis {
+  padding: 2rem 0 2rem 1.5rem;
+}
+.thesis-main {
+  margin-top: 1rem;
+}
+.thesis-content h3 {
+  margin: 1.5rem 0 0.5rem 0;
+}

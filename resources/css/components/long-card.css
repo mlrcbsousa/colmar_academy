@@ -1,0 +1,42 @@
+/*long-card.css*/
+.thesis-cards,
+.long-cards {
+  margin-left: 1.5rem;
+  width: 40%;
+}
+.long-cards {
+  padding-top: 1rem;
+  border-left: 1px solid #E0E0E0; /*light gray*/
+}
+.thesis-card:first-child,
+.long-card:last-child {
+  background-color: #E0E0E0; /*light gray*/
+}
+.long-card:first-child {
+  border-top: none;
+}
+.thesis-card,
+.long-card {
+  display: flex;
+  align-items: center;
+}
+.long-card {
+  border-bottom: 1px solid #E0E0E0; /*light gray*/
+  border-top: 1px solid #E0E0E0; /*light gray*/
+}
+.thesis-card img,
+.long-card img {
+  margin: 1rem;
+  width: 35%;
+}
+.thesis-card-content,
+.long-card-content {
+  width: 65%;
+}
+.thesis-card-content p,
+.long-card-content p {
+  margin: 0.5rem 0;
+}
+.long-card-content a {
+  text-decoration: none;
+}

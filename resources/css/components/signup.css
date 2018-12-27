@@ -1,0 +1,15 @@
+.signup {
+  margin-left: 1.5rem;
+  width: 27%;
+}
+.signup h3 {
+  margin: 1.5rem 0;
+}
+.signup .btn {
+  text-align: center;
+  padding: 0.5rem 0;
+  width: 100%;
+  color: white;
+  background-color: #45494A;
+  border-radius: 2px;
+}
